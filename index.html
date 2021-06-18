@@ -4,18 +4,26 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
- <link rel="stylesheet" href=".css/reset.css">
- <link rel="stylesheet" href=".css/style.css">
+ <link rel="stylesheet" href="./css/reset.css">
+ <link rel="stylesheet" href="./css/style.css">
+
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500;700&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Concert+One&family=Fjalla+One&display=swap" rel="stylesheet">
+
+
     <title>Chocolate pizza</title>
 </head>
 
-<body>
-    <nav>
-
-    <img src="img/logo.png" alt="">
-    <h1>Delecious </h1>
-<h6>THe best food blog on the web</h6>
-
+<body >
+    <nav class="bar">
+    <img src="img/logo.png" alt=""> 
+    <section>
+    <h1>Delecious</h1>
+<p>The best food blog on the web</p>
+</section>
 
 <section><img src="img/fb-icon.png" alt=""><img src="img/twit-icon.png" alt=""><img src="img/gp-icon.png" alt=""><img src="img/insta-icon.png" alt=""><img src="img/flic-icon.png" alt=""><img src="img/pint-icon.png" alt=""> 
     <img src="img/rss-icon.png" alt="">  <img src="img/mail-icon.png" alt="">
@@ -23,19 +31,48 @@
 </nav>
 
 <main>
-   <h1>chocolate pizza</h1> 
+   <h1>Chocolate Pizza</h1> 
    <h4>posted on 15 dec 2013 / desserts</h4>
-   <section>
-       <img src="img/print-icon.png" alt="">
-       <p>print</p></section>
-   <img src="img/choco-pizza.png" alt="">
 
-   <p>  Melt butter over medium heat in a saucepan. Add brown sugar and stir to dissolve. Halve all of the figs and toss in the saucepan with water and lemon juice. Cook over medium heat, stirring frequently, until you have a chunky-jammy mixture. Add salt with one or two stirs, set aside and let cool completely. </p>
+   <section class="print">
+       <img src="img/print-icon.png" alt="">
+       <h4>print</h4></section>
+
+  <div><img src="img/choco-pizza.png" alt=""></div> 
+<section class="three-paragraphs">
+   <p> For the fig-swirl: Melt butter over medium heat in a saucepan. Add brown sugar and stir to dissolve. Halve all of the figs and toss in the saucepan with water and lemon juice. Cook over medium heat, stirring frequently, until you have a chunky-jammy mixture. Add salt with one or two stirs, set aside and let cool completely. </p>
    <p>  Ice cream: In a small pot over medium heat, combine milk, and granulated sugar until sugar is completely dissolved and the milk is just barely lukewarm. Whisk in the egg yolks. Set mixture in the fridge and wait until the fig mixture is cooled. </p>
    <p>  Using an ice cream machine, pour liquids into the frozen basin and process according to manufacturer instructions, i.e., let spin and thicken for 20 minutes before adding mascarpone, fig jam mixture, and the nuts. Continue to process for +/-10 minutes. Pour semi-frozen mixture into a pyrex dish or glass tupperware. Freeze for at least two hours before serving.</p>
- 
-
+</section>
 </main>
+
+
+   <section class="lists">
+       
+             <form>
+                 <ul class="elemnt">      
+<li><input type="checkbox" id="cupmilk"> <label for="cupmilk">11/2 cups milk</label></li>
+<li><input type="checkbox" id="cupmascarpone"> <label for="cupmascarpone">1/2cup mascarpone</label></li>
+<li><input type="checkbox" id="pinksalt"> <label for="pinksalt">1/2tsp pink salt</label></li>
+<li><input type="checkbox" id="lbfigs"> <label for="lbfigs">1 lb Black Mission Figs</label></li>
+<li><input type="checkbox" id="sugar"> <label for="sugar">1/2cup brown sugar</label></li>
+<li><input type="checkbox" id="water"> <label for="water">2-4tbs water</label></li>
+</ul>
+ 
+<!-- id="left" -->
+<!-- id='right' -->
+     
+        <ul class="elemnt" >
+      <li><input type="checkbox" id="cupcream"> <label for="cupcream">11/2cups heavy cream</label></li>
+      <li><input type="checkbox" id="sugar"> <label for="sugar"><s>4/3granulated sugar</s></label></li>
+      <li><input type="checkbox" id="yolks"> <label for="yolks"><s>2 egg yolks</s></label></li>
+      <li><input type="checkbox" id="lemon"> <label for="lemon">1 lemon juiced</label></li>
+      <li><input type="checkbox" id="butter"> <label for="butter">2 tbsp butter</label></li>
+      <li><input type="checkbox" id="honey"> <label for="honey">1cup honey roasted pecans, roughly chopped</label>   </li>
+    </ul>
+    </form>
+   
+</section><br>
 
 
 
@@ -44,13 +81,13 @@
 <h3>Vanessa Stevenson </h3> 
  <p> Food enthusiast, photography fan. Add a pinch of raw foodism and that's pretty much who I am. </p>
  <button>SHARE RECIPE </button>
-</section>
+</section>  
 
-<footer>
-<img src="img/small-logo.png" alt="">
+  <footer>
+<img src="img/small-logo.png" alt=""> <br>
 <p>Delicious © 2013 • All Rights Reserved.
     Proudly published with Ghost. 
-    </p>
+    </p> 
 
 </footer>
 </body>

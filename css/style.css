@@ -26,7 +26,7 @@ main h4 {color: rgba(145, 145, 145, 0.815);
   .print {
     display: flex;
  position: absolute;
- top: 130px; 
+ top: 170px; 
  right: 10px;
 }
 
@@ -45,13 +45,13 @@ div img {width: 100%;}
 
  /* body section {display:-ms-inline-grid;} */
  
-  ul{ 
+  /* ul{ 
      padding-top: 20px;
     padding-bottom: 20px;
     background-image: url(list-bg.png) ;
     width:100%;
      
-}
+} */
 
 /* .elemnt {  display:-ms-inline-flexbox;
  } */
@@ -89,19 +89,35 @@ footer {
       align-items: center;
       justify-content: center;
     padding-top: 30px;
-    
-     
+    color: rgba(75, 75, 75, 0.815);
+  
   }
 footer img { position: relative;
-left: 200px;}
-  #left {
+left: 200px;} 
+
+.lists {
+  height: 305px;
+  width: 899px;
+  background-image: url(list-bg.png) ;
+  font-family: 'Patrick Hand', cursive;
+  color: #696969;
+}
+
+.elemnt1 {
+ position: relative;
+ left :350px;
+ bottom: 220px;
+}
+
+  /* #left {
     float: left;
     width: 45%;
   }
   #right {
     float: right;
     width: 45%;
-  }
+  } */
+
 button {
 background-color: 	#cd5c5c;
 color: #fff;
@@ -113,9 +129,45 @@ padding: 15px 32px;
   font-size: 16px;
  
 position: relative;
-left:640px; ;
+left:940px; 
+bottom: 100px;
 }
+/* 
   section :nth-child() {
 
     padding: 20px;
+  } */
+
+  .line {
+    height: 15px;
+    /* width: 200px; */
+    background-image: linear-gradient(45deg, #b3a8a8 14.71%, #f2f2f2 14.71%, #f2f2f2 50%, #b3a8a8 50%, #b3a8a8 64.71%, #f2f2f2 64.71%, #f2f2f2 100%);
+    background-size: 5.04px 5.04px;
+ margin-bottom: 30px;
+
   }
+ 
+  .vanessa h3{
+ display: inline;
+ font-weight: bolder;
+font-size: 25px;
+color: #222;
+  
+}
+.vanessa div {
+  width: 75%;
+  display: inline;
+position: relative;
+bottom: 50px;
+left: 20px;
+color: rgba(75, 75, 75, 0.815);
+ 
+}
+.vanessa p {
+  /* text-indent: 74px; */
+  text-align:justify;
+  width: 500px ;
+   position: relative;
+   left: 74px;
+}
+
